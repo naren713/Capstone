@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { ensureAuth, ensureGuest } = require("../middleware/auth");
+const myofferRoutes = require("./Offers");
 
 const Post = require("../models/Post");
 
@@ -12,7 +13,7 @@ router.get("/home", (req, res) => {
       res.render("home", {
         posts: data,
         layout: "authRoutes",
-        name: req.user.firstName,
+        // name: req.user.firstName,
       });
     });
 });

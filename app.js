@@ -43,6 +43,7 @@ app.use(passport.session());
 PORT = process.env.PORT || 5000;
 
 app.use(express.urlencoded({ extended: true })); //Parse URL-encoded bodies
+app.use(express.json());
 
 // routes
 

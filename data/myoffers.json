@@ -1,0 +1,48 @@
+{
+    "offers": [{
+            "id": "1",
+            "Title": "Brand factory 100% Cashback",
+            "category": "fashion",
+            "product_url": "https://www.brandfactoryonline.com/tags/shopping-back?type=list&sort=relevance&filter_category_fq=0&filter_gender_fq=1;0;2",
+            "image_url": "https://prod-banner.brandfactoryonline.com/uploads/home/PLPbanner1368X228-min-BTZc9c.jpg",
+            "description": "Shop for Rs 1000 and Get 1000 cashback offer valid till 1st November",
+            "Price": 1000
+        },
+        {
+            "id": "2",
+            "Title": "Central and me NO Cost EMI",
+            "category": "fashion",
+            "product_url": "https://centralandme.com/offers/",
+            "image_url": "https://centralandme.com/wp-content/uploads/2020/07/1920X512.jpg",
+            "description": "Shop for Rs 1000 and Get 1000 cashback offer valid till 1st November",
+            "Price": 5000
+        },
+        {
+            "id": "3",
+            "Title": "Errol LED Strip Rope Light,Water Proof,Decorative led Light with Adapter. (Warm white (Yellow), 100 Meter",
+            "category": "electricals",
+            "product_url": "https://www.amazon.in/Errol-Decorative-Adapter-Warmwhite-Yellow/dp/B07QLHJ578/ref=sr_1_2?dchild=1&keywords=led+rope+light+waterproof+100+meters&qid=1602264962&sr=8-2",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41Zug2nDLFL.jpg",
+            "description": "Led Light Strip of 100 meters available",
+            "Price": 4444
+        },
+        {
+            "id": "4",
+            "Title": "Flipkart Big Billion days offer",
+            "category": "flipkart",
+            "product_url": "https://www.flipkart.com/tv-and-appliances-big-billion-days-store?otracker=hp_banner_2_6.bannerX3.BANNER_Q4VCN6UGFJ28&fm=neo%2Fmerchandising&iid=M_106ba90e-ce2c-4433-a9b1-5367422faffc_6.Q4VCN6UGFJ28&ppt=hp&ppn=homepage&ssid=do0h4bye280000001602265285103",
+            "image_url": "https://rukminim1.flixcart.com/flap/50/50/image/45519282f8c60b41.png?q=50",
+            "description": "Shop for minimum 5000 and get 10% unlimited cashback on SBI cards",
+            "Price": 5000
+        },
+        {
+            "id": "5",
+            "Title": "Amazon Great Indian Sale",
+            "category": "amazon",
+            "product_url": "https://www.amazon.in/diwali-great-indian-festival/b?ie=UTF8&node=3419926031",
+            "image_url": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/jupiter20/unrecPC/Main_header_PC_T2.jpg",
+            "description": "Shop for minimum 5000 and get 10% unlimited cashback on HDFC cards",
+            "Price": 5000
+        }
+    ]
+}

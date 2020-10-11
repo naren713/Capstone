@@ -23,7 +23,7 @@ module.exports = function (passport) {
           lastName: profile.name.familyName,
           gender: profile.gender,
           profileUrl: profile.profileUrl,
-          profilePic: profile.photos[0].value,
+          // profilePic: profile.photos[0].value,
         };
         try {
           let user = await Fb_user.findOne({ uid: profile.id });
