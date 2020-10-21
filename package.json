@@ -27,6 +27,7 @@
     },
     "devDependencies": {
         "cross-env": "^7.0.2",
+        "handlebars": "^4.5.0",
         "nodemon": "^2.0.4"
     }
 }

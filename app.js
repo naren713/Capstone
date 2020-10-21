@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const passport = require("passport");
 const mongoose = require("mongoose");
 const session = require("express-session");
+const methodOverride = require("method-override");
 const connectDB = require("./config/connectMongo");
 const MongoStore = require("connect-mongo")(session);
 
@@ -40,6 +41,8 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use(methodOverride("_method"));
+
 PORT = process.env.PORT || 5000;
 
 app.use(express.urlencoded({ extended: true })); //Parse URL-encoded bodies
@@ -54,6 +57,15 @@ app.use("/", require("./routes/Home"));
 app.use("/", require("./routes/login"));
 app.use("/", require("./routes/CreatePost"));
 app.use("/", require("./routes/Offers"));
+app.use("/", require("./routes/Category"));
+app.use("/offers", require("./routes/OfferCategory"));
+app.use("/", require("./routes/OfferPost"));
+app.use("/", require("./routes/MyPosts"));
+app.use("/", require("./routes/MyOffers"));
+app.use("/", require("./routes/Editpost"));
+app.use("/", require("./routes/Editoffer"));
+app.use("/", require("./routes/DeletePost"));
+app.use("/", require("./routes/DeleteOffer"));
 
 app.listen(PORT, () =>
   console.log(`Server started in ${process.env.NODE_ENV} mode on port ${PORT}`)

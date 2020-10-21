@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+   <br>
+     <h3 class="btn btn-outline-danger mr-1 float-right">{{name}}</h3>
+    <h1 class="m-5">Sharing Benifits</h1>
+    {{#each posts}}
+    <div class="card m-3 float-left" style="width: 18rem; height: 400px">
+  <img src="{{image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <a href="/category/{{category}}"><h6 class="card-text">{{category}}</h6></a>
+    <p class="card-text">{{description}}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>        
+    {{/each}}
+</body>
+</html>

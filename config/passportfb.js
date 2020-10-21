@@ -27,6 +27,7 @@ module.exports = function (passport) {
         };
         try {
           let user = await Fb_user.findOne({ uid: profile.id });
+          console.log(user);
           if (user) {
             console.log(user);
             done(null, user);

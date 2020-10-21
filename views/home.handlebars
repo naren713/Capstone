@@ -9,13 +9,18 @@
 </head>
 <body>
     <br>
-     <h3 class="btn btn-outline-danger mr-1 float-right">{{name}}</h3>
+    <div class="mr-1 float-right" style="position:relative; bottom: 8px">
+      <img class="float-left" style="border-radius: 100%; width:50px; position: relative; bottom: 10px;" src="{{dp}}" alt="">
+     <h6 class="float-left" >{{name}}</h6>
+     </div>
     <h1 class="m-5">Sharing Benifits</h1>
     {{#each posts}}
-    <div class="card m-3 float-left" style="width: 18rem; height: 400px">
-  <img src="..." class="card-img-top" alt="...">
+    <div class="card m-3 float-left" style="width: 18rem; height: 600px">
+  <img src="{{image}}" class="card-img-top" alt="..." style="height: 250px;">
   <div class="card-body">
     <h5 class="card-title">{{title}}</h5>
+    <h6 class="card-title">{{price}}</h6>
+    <a href="/category/{{category}}"><h6 class="card-text">{{category}}</h6></a>
     <p class="card-text">{{description}}</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
