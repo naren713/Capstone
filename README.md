@@ -33,3 +33,19 @@
 3. Requests from the client to the server
 4. Responses from the server to the client
 5. Database Associations
+
+## Quick Start
+
+- Create a **config.env** in the **config** folder with the following variables
+
+```
+DATABASE_URL =
+PORT =
+GOOGLE_CLIENT_ID =
+GOOGLE_CLIENT_SECRET =
+SECRET =
+
+FACEBOOK_APP_ID =
+FACEBOOK_APP_SECRET =
+
+```
